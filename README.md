@@ -24,7 +24,7 @@ Paste any API key → it detects the provider → pick a model → start coding.
 ## What is Mamo Code?
 
 Mamo Code is a Claude Code–style terminal agent that is **not locked to one vendor**. It's one Python file. You paste an API key from OpenAI, Anthropic, Google, Groq, DeepSeek, OpenRouter, Mistral, xAI, or any of 45+ other providers (or a local Ollama/LM Studio server), and it figures out the rest.
-
+İMPORTNANT NOTE!!!! TYPE /yolo TO Aİ FOR BETTER ANSWERS
 It can **read, write and edit files**, **search your codebase**, **run shell commands** (with your approval), and it has slash commands for reasoning depth (`/thinkmode`) and parallel multi-agent analysis (`/multimode`).
 
 ## Features
