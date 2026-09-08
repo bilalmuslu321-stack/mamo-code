@@ -272,7 +272,26 @@ PRs welcome. Keep it in one file. To add a provider:
 [MIT](LICENSE)
 
 ---
-
+CHANGELOG = {
+    "2.3.0": [
+        "Fixed OpenRouter max_tokens and insufficient credit handling",
+        "Added automatic output token adjustment based on available OpenRouter credits",
+        "Improved context window and token usage management",
+        "Fixed misleading context limit errors on short prompts",
+        "Fixed Ollama and other local models not being detected correctly",
+        "Improved local server discovery on Windows, Linux, macOS, and WSL",
+        "Added automatic Ollama detection using OLLAMA_HOST and the Ollama CLI",
+        "Added /local command to scan and connect to local AI servers",
+        "Added /credits command to check OpenRouter credit usage",
+        "Added smarter API retry and rate-limit handling",
+        "Improved model and provider compatibility",
+        "Fixed interrupted tool calls corrupting conversation history",
+        "Improved token and API cost tracking",
+        "Added startup update log and /changelog command",
+        "Improved error messages and provider diagnostics",
+        "General stability, performance, and reliability improvements",
+    ],
+}
 <div align="center">
 Built with <a href="https://github.com/BerriAI/litellm">LiteLLM</a> and <a href="https://github.com/Textualize/rich">Rich</a>.
 </div>
