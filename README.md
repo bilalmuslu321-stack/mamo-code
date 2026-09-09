@@ -1,5 +1,12 @@
 <div align="center">
+text
 
+███╗   ███╗ █████╗ ███╗   ███╗ ██████╗      ██████╗ ██████╗ ██████╗ ███████╗
+████╗ ████║██╔══██╗████╗ ████║██╔═══██╗    ██╔════╝██╔═══██╗██╔══██╗██╔════╝
+██╔████╔██║███████║██╔████╔██║██║   ██║    ██║     ██║   ██║██║  ██║█████╗
+██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║   ██║    ██║     ██║   ██║██║  ██║██╔══╝
+██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║╚██████╔╝    ╚██████╗╚██████╔╝██████╔╝███████╗
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝      ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
 Your terminal. Your models. Your code.
 A single-file AI coding assistant with cloud and local model support.
 Explore projects, edit files, write tests, and review code without leaving your terminal.
@@ -494,4 +501,9 @@ License
 Released under the MIT License.
 
 <div align="center">
-V3 Built by MaymunMamo
+Built by MaymunMamo
+
+One file. Multiple providers. A coding workflow that stays in your terminal.
+
+</div>
+
