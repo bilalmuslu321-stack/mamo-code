@@ -1,11 +1,5 @@
 <div align="center">
 
-███╗   ███╗ █████╗ ███╗   ███╗ ██████╗      ██████╗ ██████╗ ██████╗ ███████╗
-████╗ ████║██╔══██╗████╗ ████║██╔═══██╗    ██╔════╝██╔═══██╗██╔══██╗██╔════╝
-██╔████╔██║███████║██╔████╔██║██║   ██║    ██║     ██║   ██║██║  ██║█████╗
-██║╚██╔╝██║██╔══██║██║╚██╔╝██║██║   ██║    ██║     ██║   ██║██║  ██║██╔══╝
-██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║╚██████╔╝    ╚██████╗╚██████╔╝██████╔╝███████╗
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝      ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
 Your terminal. Your models. Your code.
 A single-file AI coding assistant with cloud and local model support.
 Explore projects, edit files, write tests, and review code without leaving your terminal.
