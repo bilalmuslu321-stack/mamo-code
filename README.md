@@ -1,5 +1,4 @@
 <div align="center">
-text
 
 ███╗   ███╗ █████╗ ███╗   ███╗ ██████╗      ██████╗ ██████╗ ██████╗ ███████╗
 ████╗ ████║██╔══██╗████╗ ████║██╔═══██╗    ██╔════╝██╔═══██╗██╔══██╗██╔════╝
@@ -26,7 +25,7 @@ Connect your preferred cloud provider or a local model server, choose a model, a
 
 Everything lives in one Python file: mamo.py.
 
-text
+
 
 mamo ❯ /local
         Scan local servers and select an installed model.
@@ -103,13 +102,12 @@ Mamo scans supported local server addresses and lists available models.
 
 Custom local address:
 
-text
 
 /local http://127.0.0.1:8000/v1
 For a remote custom endpoint that requires an API key, use /key and select Custom OpenAI-compatible endpoint.
 
 4. Start coding
-text
+
 
 Explain this project's structure.
 
@@ -134,7 +132,7 @@ Bash
 ollama serve
 In Mamo:
 
-text
+
 
 /local
 LM Studio
@@ -145,7 +143,7 @@ Run /local in Mamo.
 Other servers
 You can also connect to OpenAI-compatible servers such as vLLM or llama.cpp:
 
-text
+
 
 /local http://127.0.0.1:8000/v1
 Model quality, hardware requirements, context size, and tool-call support depend on the model and server you choose. Mamo does not automatically download local models.
@@ -172,7 +170,7 @@ Use /info to see the number of provider definitions in your installed version.
 Commands
 Use /help for the full command list, or filter it:
 
-text
+
 
 /help model
 /help session
@@ -245,13 +243,13 @@ Command	Description
 Direct shell and multiline input
 Run an explicit shell command:
 
-text
+
 
 !git status
 !python -m pytest
 End a line with \ to continue your message:
 
-text
+
 
 Review the authentication module. \
 Focus on session expiration and error handling. \
@@ -304,7 +302,7 @@ Levels range from 1 to 5. Mamo adjusts its instructions and uses native reasonin
 Higher levels may increase response time and token usage. They do not guarantee a better result for every task.
 
 Parallel analysis
-text
+
 
 /multimode 3
 Setting	Behavior
@@ -317,7 +315,7 @@ Parallel analysis creates additional API requests and can increase cost and late
 
 Recommended Workflow
 1. Inspect before changing
-text
+
 
 /mode plan
 /init
@@ -330,13 +328,13 @@ text
 Review the displayed diffs before approving file changes.
 
 3. Verify the result
-text
+
 
 /test src/changed_module.py
 !python -m pytest
 /diff
 4. Save your progress
-text
+
 
 /save auth-fix
 /export auth-fix.md
@@ -375,7 +373,7 @@ Debug logs may contain sensitive request information.
 File permissions are restricted where supported, but they are not a replacement for encryption or operating-system access controls.
 
 Configuration & Storage
-text
+
 
 ~/.mamo/
 ├── config.json          # Settings and saved provider credentials
@@ -412,7 +410,6 @@ The Python interpreter used by the script must have Mamo's dependencies installe
 Windows PowerShell
 Store the file in a permanent location, such as:
 
-text
 
 C:\mamo\mamo.py
 Create your PowerShell profile if necessary:
@@ -440,14 +437,14 @@ Troubleshooting
 No model selected
 Configure a provider or connect a local server:
 
-text
+
 
 /key
 /local
 No local server found
 Check that your server is running and its API is enabled. Try an explicit address:
 
-text
+
 
 /local http://127.0.0.1:1234/v1
 For Docker, WSL, or a separate machine, use an address reachable from the environment running Mamo.
@@ -455,7 +452,7 @@ For Docker, WSL, or a separate machine, use an address reachable from the enviro
 A model is missing from the list
 Some providers return incomplete model lists. Enter the exact model ID:
 
-text
+
 
 /model your-model-id
 This selects the ID but does not guarantee that your account has access.
@@ -464,12 +461,12 @@ Tool calls fail
 Tool calling is not supported by every model or endpoint. Try a tool-capable model and verify your local server's configuration.
 
 Context is too large
-text
+
 
 /compact
 If necessary, save your work and start a fresh conversation:
 
-text
+
 
 /save before-reset
 /clear
@@ -477,7 +474,7 @@ Copying does not work
 /copy requires pyperclip and an available clipboard backend. Headless Linux environments may need an additional system clipboard utility.
 
 Need more diagnostic information?
-text
+
 
 /doctor
 /status
@@ -506,4 +503,3 @@ Built by MaymunMamo
 One file. Multiple providers. A coding workflow that stays in your terminal.
 
 </div>
-
